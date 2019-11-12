@@ -1,0 +1,11 @@
+{
+    "extends": [
+      "config:base"
+    ],
+      "commitMessagePrefix": "Bump",
+      "labels": ["dependencies"],
+      "rangeStrategy": "bump",
+      "groupName": "all dependencies",
+      "groupSlug": "dependencies",
+      "baseBranches": ["release/3.0.0", "dev"]
+  }
